@@ -1,0 +1,8 @@
+websockets>=12.0,<13      # WebSocket server/client implementation
+uvloop>=0.19 ; sys_platform != "win32"  # High-performance event loop (Unix only)
+rich>=13.7               # Pretty terminal output and logging
+pydantic>=2.8           # Data validation and settings management
+pytest>=8.2             # Testing framework
+pytest-asyncio>=0.23    # Async test support
+pytest-timeout>=2.3     # Test timeout support
+anyio>=4.4              # Async concurrency utilities

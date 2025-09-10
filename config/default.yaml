@@ -1,0 +1,19 @@
+# Default configuration for ws-fanout-slow-client-killer
+# CLI flags override these values
+
+server:
+  host: 0.0.0.0           # Listen address
+  port: 8765              # Listen port
+  mode: queue             # naive | queue
+  rate: 100               # msgs/sec
+  payload_bytes: 64       # Random payload size
+  ping_interval: 20       # WebSocket ping interval (seconds)
+  ping_timeout: 20        # WebSocket ping timeout (seconds)
+
+queue_mode:
+  maxsize: 100            # Queue size per client
+  drop_limit: 50          # drops in 10s window triggers disconnect
+  full_timeout: 5         # seconds queue may remain full
+
+logging:
+  json: false             # Use JSON log format
