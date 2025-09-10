@@ -13,7 +13,7 @@ import os
 async def demo():
     """Run a simple demo showing the difference between naive and queue modes."""
     
-    python_path = "/Users/kemalerbakirci/Desktop/6-Months-Development/IoT/Projects/ws-fanout-slow-client-killer/.venv/bin/python"
+    python_path = "..."
     
     print("🚀 WebSocket Fanout Slow Client Killer Demo")
     print("=" * 50)
