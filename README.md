@@ -46,7 +46,7 @@ Messages    Queue: Concurrent   Queues     Send Tasks
 
 ```bash
 # Clone and setup
-git clone <your-repo>
+git clone https://github.com/kemalerbakirci/ws-fanout-slow-client-killer
 cd ws-fanout-slow-client-killer
 
 # Install dependencies  
